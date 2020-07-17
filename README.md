@@ -9,7 +9,11 @@
 brew install ffmpeg
 ```
 
-2. dowload ffmpy in python
+2. download ffmpy in python
 ```
 pip3 install ffmpy
+```
+3. download tkinter in python
+```
+pip3 install tkinter
 ```
