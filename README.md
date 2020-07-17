@@ -7,5 +7,9 @@
 1. download ffmpeg:
 ``` 
 brew install ffmpeg
+```
 
+2. dowload ffmpy in python
+```
+pip3 install ffmpy
 ```
