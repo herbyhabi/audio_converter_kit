@@ -10,7 +10,7 @@ def other_to_wav_int16(src_dir, dst_dir, aim_format, sampling_rate):
     files：所有文件的文件名
     """
     settings = []
-    if sampling_rate != '请选择':
+    if sampling_rate != 'Please choose':
         settings.append('-ar')
         settings.append(sampling_rate[:-2])
 
@@ -19,7 +19,7 @@ def other_to_wav_int16(src_dir, dst_dir, aim_format, sampling_rate):
             # print(os.path.join(root, name))    # 打印出src_dir目录下所有的文件的绝对路径名
             audio_name_src = os.path.join(root, name)
 
-            if aim_format == '请选择':
+            if aim_format == 'Please choose':
                 audio_name_dst = os.path.join(dst_dir, name)
             else:
                 audio_name_dst = os.path.join(dst_dir, name.split('.')[0] + '.' + aim_format)
